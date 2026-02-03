@@ -906,6 +906,25 @@ a {
     color: #ff4757;
 }
 
+/* Newsletter Form Specific Styles */
+footer .form-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer .form-group .form-control {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+}
+
+footer .form-group .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
 /* Back to Top Button */
 .back-to-top {
     position: fixed;
